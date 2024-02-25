@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Meow+Script&display=swap");
+
+.mainDiv {
+  border-radius: 104px 10px 104px 10px;
+  box-shadow: -16px 13px 33px -1px rgba(102, 101, 100, 1);
+}
+.conDiv {
+  background: rgba(8, 8, 8, 0.5);
+  backdrop-filter: blur(5px);
+  top: 10%;
+  overflow: scroll;
+  border-radius: 64px 5px 64px 5px;
+}
+.headDiv {
+  font-family: "Meow Script", cursive;
+}
+/* .labels {
+  position: absolute;
+  top: 20%;
+} */
+form {
+  margin-top: 20px;
+  font-size: 15px;
+}
+input {
+  /* position: absolute; */
+  font-size: 12px;
+  padding: 5px;
+  box-shadow: 6px 7px 14px 1px rgba(157, 156, 156, 0.75);
+  /* box-shadow: inset 3px 4px 16px 0px rgba(67, 66, 66, 0.75); */
+  color: black;
+  border-radius: 40px;
+  border: none;
+  top: -10%;
+}
+input:hover {
+  border: 3px solid green;
+  /* cursor: pointer; */
+}
+.book {
+  margin-top: 10px;
+  border: 2px solid #34160533;
+  background: rgba(52, 22, 5, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: inset 3px 4px 16px 0px rgba(54, 21, 1, 0.75);
+}
+
+#add {
+  padding: 13px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.4);
+  color: wheat;
+  border: none;
+  backdrop-filter: blur(10px);
+}
+#add:hover {
+  cursor: pointer;
+  background: rgba(245, 222, 179, 0.5);
+  color: rgb(0, 0, 0);
+  backdrop-filter: blur(10px);
+}
+
+#searchInput {
+  margin-left: 550px;
+  margin-top: 70px;
+  margin-bottom: -10px;
+}
+.btn {
+  font-size: 15px;
+}
