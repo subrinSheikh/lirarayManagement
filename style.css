@@ -3,6 +3,8 @@
 .mainDiv {
   border-radius: 104px 10px 104px 10px;
   box-shadow: -16px 13px 33px -1px rgba(102, 101, 100, 1);
+  position: absolute;
+  margin: auto 10vw;
 }
 .conDiv {
   background: rgba(8, 8, 8, 0.5);
@@ -13,6 +15,7 @@
 }
 .headDiv {
   font-family: "Meow Script", cursive;
+  font-size: 20px;
 }
 /* .labels {
   position: absolute;
@@ -24,7 +27,7 @@ form {
 }
 input {
   /* position: absolute; */
-  font-size: 12px;
+  font-size: 16px;
   padding: 5px;
   box-shadow: 6px 7px 14px 1px rgba(157, 156, 156, 0.75);
   /* box-shadow: inset 3px 4px 16px 0px rgba(67, 66, 66, 0.75); */
@@ -61,7 +64,7 @@ input:hover {
 }
 
 #searchInput {
-  margin-left: 550px;
+  margin-left: 680px;
   margin-top: 70px;
   margin-bottom: -10px;
 }
